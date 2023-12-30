@@ -8,9 +8,10 @@ export default function App() {
     <>
       <div className="Global-App">
         <div className="Head">
-          <h1>L'anti-sèche MMI</h1>
           <div className="Head-Text">
-            <Link to="/">Accueil</Link>
+            <Link to="/">
+              <h1>L'anti-sèche MMI</h1>
+            </Link>
           </div>
         </div>
         <Outlet />
