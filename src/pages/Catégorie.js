@@ -14,6 +14,8 @@ export default function Catégorie() {
         {Name}
         {foundCategory.text}
       </p>
+      <img src={foundCategory.img} alt={foundCategory.Name} width="500px" />
+      <img src={foundCategory.img2} alt={foundCategory.Name} width="500px" />
     </>
   );
 }

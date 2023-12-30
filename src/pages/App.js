@@ -6,8 +6,13 @@ import Footer from "./Footer";
 export default function App() {
   return (
     <div>
-      <Link to="/home">Home</Link>
-      <Link to="/catégories">Catégorie</Link>
+      <div className="Head">
+        <h1>L'anti-sèche MMI</h1>
+        <div className="Head-Text">
+          <Link to="/">Accueil</Link>
+          <Link to="/catégories">Catégories</Link>
+        </div>
+      </div>
       <Outlet />
       <Footer />
     </div>
