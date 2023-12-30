@@ -100,7 +100,7 @@ body {
         width: 100%;
         display: flex;
         flex-direction: column;
-        background-color: palevioletred;
+        background-color: #FF69B4;
         /* align-items: center; */
         height: fit-content;
         padding: 10px;
@@ -134,11 +134,13 @@ body {
     .Body-App .App-header p.Desc1 {
         margin-bottom: 1.2rem;
         text-align: left;
+        color: #fff;
     }
 
     .Body-App .App-header p.Desc2 {
         margin-bottom: 1.2rem;
         text-align: right;
+        color: #fff;
     }
 
     .Body-App .App-header .Catégories {
@@ -149,7 +151,7 @@ body {
         width: 100%;
         margin-bottom: 0.5rem;
         margin-top: 2rem;
-        background-color: palevioletred;
+        background-color: #FF69B4;
         border-radius: 30px 10px 30px 10px;
         PADDING: 10PX;
         border: black solid 5px;
