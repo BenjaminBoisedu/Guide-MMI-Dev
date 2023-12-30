@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { categories } from "../data/cat";
 import "./Css/categorie.css";
 
@@ -18,12 +18,20 @@ export default function Catégorie() {
         </div>
       </div>
       <div className="aide">
-        <h2>Les bases de {foundCategory.Name}</h2>
+        <h2>Les aides de {foundCategory.Name}</h2>
+        <ul className="categorie">
+          {foundCategory.chap.map((aide) => (
+            <Link to={`/catégories/${foundCategory.Name}/${aide}`}>
+              <li>{aide}</li>
+            </Link>
+          ))}
+        </ul>
+        {/* <h2>Les bases de {foundCategory.Name}</h2>
         <ul className="Base">
           {foundCategory.base.map((base) => (
             <li>{base}</li>
           ))}
-        </ul>
+        </ul> */}
       </div>
       <div className="tips">
         <h2>Les tips {foundCategory.Name}</h2>

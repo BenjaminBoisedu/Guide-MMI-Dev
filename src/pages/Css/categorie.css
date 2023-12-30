@@ -42,7 +42,7 @@
         margin-bottom: 10px;
     }
 
-    ul.Base {
+    ul.categorie {
         list-style-type: none;
         margin: 0;
         padding: 10px;
@@ -53,22 +53,22 @@
 
     }
 
-    .aide ul li {
+    ul.categorie a {
         float: left;
-        font-size: small;
-        width: fit-content;
-        padding: 10px;
-        margin: 0;
-        border-radius: 20px 6.6px 20px 6.6px;
+        display: block;
         color: white;
-        font-size: medium;
-        white-space: calc(100% - 10px);
-        text-decoration: dashed;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        text-size-adjust: auto;
-        text-align: left;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        border-radius: 20px 6.6px 20px 6.6px;
+        margin: 5px;
+        background-color: #ff69b4;
+        border: 5px solid black;
+        width: 100%;
+
     }
+
 
     .tips {
         width: 100%;
