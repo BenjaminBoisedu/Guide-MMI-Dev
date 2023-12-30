@@ -17,9 +17,13 @@ export default function Catégorie() {
           <p className="info">{foundCategory.text}</p>
         </div>
       </div>
-      <div className="tips">
+      <div className="aide">
         <h2>Les bases de {foundCategory.Name}</h2>
-        <p>{foundCategory.base}</p>
+        <ul className="Base">
+          {foundCategory.base.map((base) => (
+            <li>{base}</li>
+          ))}
+        </ul>
       </div>
       <div className="tips">
         <h2>Les tips {foundCategory.Name}</h2>

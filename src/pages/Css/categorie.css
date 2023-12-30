@@ -25,4 +25,79 @@
         background-color: #785dca;
         margin-bottom: 10px;
     }
+
+    .aide {
+        width: 100%;
+        border-radius: 30px 15px 30px 15px;
+        background-color: #ff69b4;
+        border: black solid 5px;
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    .aide h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 1.5rem;
+        text-align: center;
+        width: 100%;
+        border: 5px solid black;
+        border-radius: 20px 6.6px 20px 6.6px;
+        background-color: #785dca;
+        margin-bottom: 10px;
+    }
+
+    ul.Base {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        overflow: hidden;
+        background-color: #785dca;
+        border-radius: 30px 10px 30px 10px;
+        border: 5px solid black;
+
+    }
+
+    .aide ul li {
+        float: left;
+        font-size: small;
+        width: fit-content;
+        padding: 10px;
+        margin: 0;
+        border-radius: 20px 6.6px 20px 6.6px;
+
+    }
+
+    .tips {
+        width: 100%;
+        border-radius: 30px 15px 30px 15px;
+        background-color: #ff69b4;
+        border: black solid 5px;
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    .tips h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 1.5rem;
+        text-align: center;
+        width: 100%;
+        border: 5px solid black;
+        border-radius: 20px 6.6px 20px 6.6px;
+        background-color: #785dca;
+        margin-bottom: 10px;
+    }
+
+    .tips p {
+        margin: 0;
+        padding: 0;
+        font-size: 1.5rem;
+        text-align: center;
+        width: 100%;
+        border: 5px solid black;
+        border-radius: 20px 6.6px 20px 6.6px;
+        background-color: #785dca;
+        margin-bottom: 10px;
+    }
 }
