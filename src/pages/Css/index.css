@@ -14,7 +14,8 @@ h6 {
 }
 
 p,
-a {
+a,
+li {
     font-family: Tilt_Neon;
     margin: 0;
     padding: 0;

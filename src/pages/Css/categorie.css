@@ -1,9 +1,4 @@
 @media screen and (max-width: 768px) {
-    img {
-        width: 50%;
-        border-radius: 30px 15px 30px 15px;
-        background-color: palevioletred;
-    }
 
     .text {
         width: 100%;
@@ -65,7 +60,14 @@
         padding: 10px;
         margin: 0;
         border-radius: 20px 6.6px 20px 6.6px;
-
+        color: white;
+        font-size: medium;
+        white-space: calc(100% - 10px);
+        text-decoration: dashed;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        text-size-adjust: auto;
+        text-align: left;
     }
 
     .tips {
