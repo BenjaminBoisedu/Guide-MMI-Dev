@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { categories } from "../data/cat";
+import "./Css/categorie.css";
 
 export default function Catégorie() {
   const { Name } = useParams();
@@ -10,12 +11,20 @@ export default function Catégorie() {
   }
   return (
     <>
-      <p>
-        {Name}
-        {foundCategory.text}
-      </p>
-      <img src={foundCategory.img} alt={foundCategory.Name} width="500px" />
-      <img src={foundCategory.img2} alt={foundCategory.Name} width="500px" />
+      <div className="info">
+        <div className="text">
+          <h1 className="tilte">{Name}</h1>
+          <p className="info">{foundCategory.text}</p>
+        </div>
+      </div>
+      <div className="tips">
+        <h2>Les bases de {foundCategory.Name}</h2>
+        <p>{foundCategory.base}</p>
+      </div>
+      <div className="tips">
+        <h2>Les tips {foundCategory.Name}</h2>
+        <p>{foundCategory.tips}</p>
+      </div>
     </>
   );
 }

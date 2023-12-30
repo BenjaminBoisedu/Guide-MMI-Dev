@@ -11,7 +11,6 @@ export default function App() {
           <h1>L'anti-sèche MMI</h1>
           <div className="Head-Text">
             <Link to="/">Accueil</Link>
-            <Link to="/catégories">Catégories</Link>
           </div>
         </div>
         <Outlet />
