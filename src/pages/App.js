@@ -5,16 +5,18 @@ import Footer from "./Footer";
 
 export default function App() {
   return (
-    <div>
-      <div className="Head">
-        <h1>L'anti-sèche MMI</h1>
-        <div className="Head-Text">
-          <Link to="/">Accueil</Link>
-          <Link to="/catégories">Catégories</Link>
+    <>
+      <div className="Global-App">
+        <div className="Head">
+          <h1>L'anti-sèche MMI</h1>
+          <div className="Head-Text">
+            <Link to="/">Accueil</Link>
+            <Link to="/catégories">Catégories</Link>
+          </div>
         </div>
+        <Outlet />
+        <Footer />
       </div>
-      <Outlet />
-      <Footer />
-    </div>
+    </>
   );
 }
