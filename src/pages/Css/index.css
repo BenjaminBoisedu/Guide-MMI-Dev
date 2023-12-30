@@ -175,12 +175,6 @@ body {
         width: fit-content;
     }
 
-    .Body-App .App-header .Catégories>div:hover {
-        background-color: #fff;
-        color: #785DCA;
-        border: #785DCA solid 5px;
-        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
-    }
 
     .Body-App .App-header .Catégories>div h2 {
         margin: 0;
