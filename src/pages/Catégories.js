@@ -7,7 +7,7 @@ function Catégories() {
       <header className="App-header">
         <h1>Les catégories</h1>
         <div className="Catégorie">
-          {categories.map((catégorie, key) => (
+          {categories.map((catégorie) => (
             <div className="Catégorie" key={catégorie.Name}>
               <h2>{catégorie.Name}</h2>
               <p>{catégorie.Description}</p>
