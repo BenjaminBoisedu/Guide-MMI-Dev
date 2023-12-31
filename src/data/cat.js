@@ -44,36 +44,34 @@ export const categories = [
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/480px-JavaScript-logo.png",
     img2: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png",
     chaps: ["Variables", "Fonctions", "Tableaux", "Boucles", "Conditions"],
-    chap: {
-      Variables: [
-        "Créer une variable : let nom_de_la_variable = valeur;",
-        "Afficher une variable : console.log(nom_de_la_variable);",
-        "Afficher une variable avec du texte : console.log(`texte ${nom_de_la_variable} texte`);",
-      ],
-      Fonctions: [
-        "Créer une fonction : function nom_de_la_fonction() { }",
-        "Afficher une fonction : nom_de_la_fonction();",
-        "Afficher une fonction avec un paramètre : nom_de_la_fonction($parametre);",
-      ],
-      Tableaux: [
-        "Créer un tableau : let nom_du_tableau = [];",
-        "Créer un tableau avec des valeurs : let nom_du_tableau = [valeur1, valeur2];",
-        "Afficher un tableau : console.log(nom_du_tableau[0]);",
-        "Afficher un tableau avec une boucle : nom_du_tableau.forEach((valeur) => { console.log(valeur); });",
-        "Afficher un tableau avec une boucle et sa clé : nom_du_tableau.forEach((cle, valeur) => { console.log(cle+' : '+valeur); });",
-      ],
-      Boucles: [
-        "Boucle for : for (let i = 0; i < 10; i++) { console.log(i); }",
-        "Boucle while : let i = 0; while (i < 10) { console.log(i); i++; }",
-        "Boucle do while : let i = 0; do { console.log(i); i++; } while (i < 10);",
-      ],
-      Conditions: [
-        "Condition if : if (condition) { }",
-        "Condition if else : if (condition) { } else { }",
-        "Condition if else if : if (condition) { } else if (condition) { }",
-        "Condition switch case : switch (variable) { case 'valeur': break; default: break; }",
-      ],
-    },
+    Variables: [
+      "Créer une variable : let nom_de_la_variable = valeur;",
+      "Afficher une variable : console.log(nom_de_la_variable);",
+      "Afficher une variable avec du texte : console.log(`texte ${nom_de_la_variable} texte`);",
+    ],
+    Fonctions: [
+      "Créer une fonction : function nom_de_la_fonction() { }",
+      "Afficher une fonction : nom_de_la_fonction();",
+      "Afficher une fonction avec un paramètre : nom_de_la_fonction($parametre);",
+    ],
+    Tableaux: [
+      "Créer un tableau : let nom_du_tableau = [];",
+      "Créer un tableau avec des valeurs : let nom_du_tableau = [valeur1, valeur2];",
+      "Afficher un tableau : console.log(nom_du_tableau[0]);",
+      "Afficher un tableau avec une boucle : nom_du_tableau.forEach((valeur) => { console.log(valeur); });",
+      "Afficher un tableau avec une boucle et sa clé : nom_du_tableau.forEach((cle, valeur) => { console.log(cle+' : '+valeur); });",
+    ],
+    Boucles: [
+      "Boucle for : for (let i = 0; i < 10; i++) { console.log(i); }",
+      "Boucle while : let i = 0; while (i < 10) { console.log(i); i++; }",
+      "Boucle do while : let i = 0; do { console.log(i); i++; } while (i < 10);",
+    ],
+    Conditions: [
+      "Condition if : if (condition) { }",
+      "Condition if else : if (condition) { } else { }",
+      "Condition if else if : if (condition) { } else if (condition) { }",
+      "Condition switch case : switch (variable) { case 'valeur': break; default: break; }",
+    ],
     tips: ["Empty"],
   },
   {
