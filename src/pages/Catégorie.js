@@ -33,7 +33,7 @@ export default function Catégorie() {
         <p>{foundCategory.tips}</p>
       </div>
 
-      <Link to={`/catégories`} id="Retour">
+      <Link to={`/`} id="Retour">
         Retour
       </Link>
     </>
