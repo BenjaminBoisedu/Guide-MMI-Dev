@@ -32,6 +32,10 @@ export default function Catégorie() {
         <h2>Les tips {foundCategory.Name}</h2>
         <p>{foundCategory.tips}</p>
       </div>
+
+      <Link to={`/catégories`} id="Retour">
+        Retour
+      </Link>
     </>
   );
 }

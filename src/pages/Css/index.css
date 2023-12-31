@@ -63,6 +63,19 @@ body {
         border-radius: 15px 15px 0 0;
     }
 
+    a#Retour {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        border-radius: 15px 15px 0 0;
+        background-color: #785DCA;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.5rem;
+        border: black solid 5px;
+        margin: 10px auto;
+    }
+
     .Head {
         width: 100%;
         display: flex;
