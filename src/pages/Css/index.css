@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
 
 h1,
@@ -29,7 +29,7 @@ li {
 body {
     margin: 0;
     padding: 0;
-    background-color: #dddada;
+    background-color: #999494;
 }
 
 * {
