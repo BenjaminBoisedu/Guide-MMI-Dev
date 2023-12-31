@@ -12,6 +12,7 @@ export default function App() {
             <Link to="/">
               <h1>L'anti-sèche MMI</h1>
             </Link>
+            <Link to="/about">A propos</Link>
           </div>
         </div>
         <Outlet />

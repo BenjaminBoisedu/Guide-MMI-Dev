@@ -5,6 +5,7 @@ import Catégorie from "./pages/Catégorie";
 import Chap from "./pages/Chap";
 import App from "./pages/App";
 import Index from "./pages/Index";
+import Creator from "./pages/Creator";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const Router = createBrowserRouter([
@@ -15,6 +16,7 @@ const Router = createBrowserRouter([
       { path: "/catégories", element: <Catégories /> },
       { path: "/catégories/:Name", element: <Catégorie /> },
       { path: "/catégories/:Name/:chap", element: <Chap /> },
+      { path: "/about", element: <Creator /> },
     ],
   },
 ]);
