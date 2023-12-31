@@ -19,7 +19,7 @@ export default function Catégorie() {
         </div>
       </div>
       <div className="aide">
-        <h2>Les aides de {foundCategory.Name}</h2>
+        <h2>Les Chapitres de {foundCategory.Name}</h2>
         <ul className="categorie" key={foundCategory.chaps}>
           {foundCategory.chaps.map((chap) => (
             <li key={chap}>
@@ -28,11 +28,6 @@ export default function Catégorie() {
           ))}
         </ul>
       </div>
-      <div className="tips">
-        <h2>Les tips {foundCategory.Name}</h2>
-        <p>{foundCategory.tips}</p>
-      </div>
-
       <Link to={`/`} id="Retour">
         Retour
       </Link>
