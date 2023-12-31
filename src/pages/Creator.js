@@ -1,9 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { creator } from "../data/creator.js";
-const creator2 = {
-  img: "",
-};
 
 export default function Creator() {
   return (
@@ -29,7 +26,7 @@ export default function Creator() {
           </Link>
         </div>
         <div className="Creator-Img">
-          <img src={creator2.img} alt="creator" />
+          <img src={creator.img} alt="creator" />
         </div>
       </div>
     </div>
