@@ -13,28 +13,17 @@ export const categories = [
       "Cookies",
       "Sessions",
     ],
-
-    base: [
+    Variables: [
       "Créer une variable : $nom_de_la_variable = valeur;",
       "Afficher une variable : echo $nom_de_la_variable;",
-      "Afficher une variable avec du texte : echo 'texte'.$nom_de_la_variable.'texte';",
-      "Creer une fonction : function nom_de_la_fonction() { }",
+      "Afficher une variable avec du texte : echo 'texte '.$nom_de_la_variable.' texte';",
+    ],
+    Fonctions: [
+      "Créer une fonction : function nom_de_la_fonction() { }",
       "Afficher une fonction : nom_de_la_fonction();",
       "Afficher une fonction avec un paramètre : nom_de_la_fonction($parametre);",
-      "Creer un tableau : $nom_du_tableau = array() || $nom_du_tableau = [];",
-      "Creer un tableau avec des valeurs : $nom_du_tableau = array(valeur1, valeur2) || $nom_du_tableau = [valeur1, valeur2];",
-      "Afficher un tableau : echo $nom_du_tableau[0];",
-      "Afficher un tableau avec une boucle : foreach ($nom_du_tableau as $valeur) { echo $valeur; }",
-      "Afficher un tableau avec une boucle et sa clé : foreach ($nom_du_tableau as $cle => $valeur) { echo $cle.' : '.$valeur; }",
-      "Boucle for : for ($i = 0; $i < 10; $i++) { echo $i; }",
-      "Boucle while : while ($i < 10) { echo $i; $i++; }",
-      "Boucle do while : do { echo $i; $i++; } while ($i < 10);",
-      "Condition if : if (condition) { }",
-      "Condition if else : if (condition) { } else { }",
-      "Condition if else if : if (condition) { } else if (condition) { }",
-      "Condition switch case : switch ($variable) { case 'valeur': break; default: break; }",
-      "Pour supprimer une variable : unset($nom_de_la_variable);",
     ],
+
     tips: ["Empty"],
   },
   {
