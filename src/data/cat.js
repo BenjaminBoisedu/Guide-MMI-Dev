@@ -58,8 +58,8 @@ export const categories = [
       "Tableaux",
       "Boucles",
       "Conditions",
-      "Local Storage",
-      "Session Storage",
+      "LocalStorage",
+      "SessionStorage",
     ],
     Variables: [
       "Créer une variable : let nom_de_la_variable = valeur;",
