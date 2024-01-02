@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
 
     .Creator {
-        margin: 10px 0 0 0;
+        margin: 10px auto;
         padding: 10px;
         background-color: #FF69B4;
         border-radius: 2rem 0.5rem 2rem 0.5rem;
