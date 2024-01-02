@@ -21,7 +21,9 @@ export default function Chap() {
         <h2>Les aides de {foundCategory.Name}</h2>
         <ul>
           {foundCategory[chap].map((chap) => (
-            <li key={chap}>{chap}</li>
+            <li key={chap}>
+              <p>{chap}</p>
+            </li>
           ))}
         </ul>
       </div>

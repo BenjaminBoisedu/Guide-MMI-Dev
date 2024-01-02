@@ -92,10 +92,14 @@ export const categories = [
     LocalStorage: [
       "Créer un local storage : localStorage.setItem('nom_du_local_storage', 'valeur_du_local_storage');",
       "Afficher un local storage : console.log(localStorage.getItem('nom_du_local_storage'));",
+      "Supprimer un local storage : localStorage.removeItem('nom_du_local_storage');",
+      "Supprimer tous les local storage : localStorage.clear();",
     ],
     SessionStorage: [
       "Créer un session storage : sessionStorage.setItem('nom_du_session_storage', 'valeur_du_session_storage');",
       "Afficher un session storage : console.log(sessionStorage.getItem('nom_du_session_storage'));",
+      "Supprimer un session storage : sessionStorage.removeItem('nom_du_session_storage');",
+      "Supprimer tous les session storage : sessionStorage.clear();",
     ],
 
     tips: ["Empty"],
