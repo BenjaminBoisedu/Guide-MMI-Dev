@@ -1,6 +1,6 @@
 export const creator = {
   name: "Benjamin Boisédu",
-  age: 19,
+  age: "19 ans",
   job: "Développeur web",
   etude: "BUT MMI",
   school: "IUT de Lens",
