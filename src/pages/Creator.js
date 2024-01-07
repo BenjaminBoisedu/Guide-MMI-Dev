@@ -10,7 +10,11 @@ export default function Creator() {
         <div className="Creator-Info">
           <h1>{creator.name}</h1>
           <img src={creator.img} alt="creator" className="img" />
-          <h2 className="job">{creator.job}</h2>
+          <ul className="Creator-Info-job">
+            {creator.job.map((job) => (
+              <li key={job}>{job}</li>
+            ))}
+          </ul>
           <div className="Creator-Info-etudes">
             <h3 className="etudes">{creator.etude}</h3>
             <h3 className="school">{creator.school}</h3>

@@ -1,7 +1,13 @@
 export const creator = {
   name: "Benjamin Boisédu",
   age: "19 ans",
-  job: "Développeur web",
+  job: [
+    "Développeur Web",
+    "Développeur Mobile",
+    "Modelisateur 3D",
+    "Astrophotographe Amateur",
+    "Developpeur de Jeux Débutant",
+  ],
   etude: "BUT MMI",
   school: "IUT de Lens",
   img: "https://avatars.githubusercontent.com/u/99210381?v=4",
