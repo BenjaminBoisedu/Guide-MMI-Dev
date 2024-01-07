@@ -30,6 +30,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #999494;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 * {
@@ -42,6 +44,273 @@ body {
     min-height: 100vh;
     padding: 0 10px;
 }
+
+.Global-App {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    border-radius: 15px 15px 0 0;
+}
+
+a#Retour {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px 5px 15px 5px;
+    background-color: #785DCA;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: black solid 5px;
+    margin: 10px auto;
+}
+
+.Head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #785DCA;
+    /* align-items: center; */
+    height: fit-content;
+    padding: 10px;
+    border-radius: 30px 10px 15px 0;
+    border: black solid 5px;
+}
+
+.Head .Head-Text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.Head h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.Head a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.Body-App {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    border-radius: 0 0 15px 15px;
+}
+
+.Body-App .Info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FF69B4;
+    /* align-items: center; */
+    height: fit-content;
+    padding: 10px;
+    border-radius: 30px 10px 30px 10px;
+    border: black solid 5px;
+}
+
+.Body-App h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    background-color: #785DCA;
+    color: #fff;
+    border-radius: 20px 6.6px 20px 6.6px;
+    border: black solid 5px;
+}
+
+.Body-App .App-header p {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    /* text-align: center; */
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border-radius: 15px 0px 15px 0;
+}
+
+.Body-App .App-header p.Desc1 {
+    margin-bottom: 1.2rem;
+    text-align: left;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.Body-App .App-header p.Desc2 {
+    margin-bottom: 1.2rem;
+    text-align: right;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.Body-App .App-header .Catégories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+    background-color: #FF69B4;
+    border-radius: 30px 10px 30px 10px;
+    PADDING: 10PX;
+    border: black solid 5px;
+}
+
+.Body-App .App-header .Catégories>div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    background-color: #785DCA;
+    color: #fff;
+    border-radius: 30px 10px 30px 10px;
+    border: black solid 5px;
+    height: 100%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+    width: fit-content;
+}
+
+.Body-App .App-header .Catégories>div h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border-radius: 15px 0px 15px 0;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    grid-row: 1/3;
+    grid-column: 1;
+    rotate: 180deg;
+
+}
+
+.Body-App .App-header .Catégories>div a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 1.3rem;
+}
+
+.Body-App .App-header .Catégories>div a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+
+.Footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #785DCA;
+    /* align-items: center; */
+    height: fit-content;
+    padding: 10px 0;
+    border-radius: 10px 30px 0 15px;
+    border: black solid 5px;
+    padding: 10px;
+}
+
+.Footer p.Name {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border-radius: 15px 0px 15px 0;
+    color: #fff;
+}
+
+.Footer p.auteur {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border-radius: 15px 0px 15px 0;
+    color: #fff;
+}
+
+.Footer p.auteur a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.Footer .Copyright {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border-radius: 15px 0px 15px 0;
+    color: #fff;
+}
+
+
+.Footer .Social {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    border-radius: 15px 0px 15px 0;
+    filter: invert(100%);
+}
+
+.Footer .Social a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+.Footer .Social a:hover img {
+    filter: invert(100%);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+
+}
+
+.Footer .Social a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+.Footer .Social a img {
+    width: 50px;
+    height: 50px;
+    filter: invert(0%);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+
+
 
 @media screen and (max-width: 768px) {
     #root {
@@ -238,7 +507,7 @@ body {
     }
 
     .Body-App .App-header .Catégories .Catégorie:nth-child(4) {
-        grid-row: 5;
+        grid-row: 4;
         grid-column: 1/3;
     }
 

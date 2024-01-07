@@ -97,3 +97,103 @@
         color: #fff;
     }
 }
+
+.Aide {
+    width: 100%;
+    border-radius: 30px 15px 30px 15px;
+    background-color: #ff69b4;
+    border: black solid 5px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.Aide a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+
+.aides {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 20px 6.6px 20px 6.6px;
+    background-color: #785dca;
+    margin-bottom: 10px;
+
+}
+
+.aides h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.7rem;
+    text-align: center;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 20px 6.6px 20px 6.6px;
+    background-color: #785dca;
+    margin-bottom: 10px;
+
+}
+
+.aides ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #ff69b4;
+    border-radius: 30px 10px 30px 10px;
+    border: 5px solid black;
+}
+
+.aides ul li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.aide_tips {
+    width: 100%;
+    border-radius: 20px 6.6px 20px 6.6px;
+    background-color: #785dca;
+    border: black solid 5px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.aide_tips h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 20px 6.6px 20px 6.6px;
+    background-color: #785dca;
+    margin-bottom: 10px;
+}
+
+.aide_tips p {
+    margin: 0;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 20px 6.6px 20px 6.6px;
+    background-color: #ff69b4;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+/* Path: mon-app/src/pages/Css/Chap.css */

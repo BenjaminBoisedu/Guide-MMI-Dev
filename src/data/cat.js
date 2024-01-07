@@ -368,3 +368,76 @@ export const categories = [
     tips: ["Empty"],
   },
 ];
+
+export const com = [
+  {
+    Name: "SWOT",
+    Description: "Le guide complet du communicant MMI",
+    text: "Le SWOT est un outil d'analyse stratégique de l'environnement interne et externe de l'entreprise. Il permet de déterminer les forces et les faiblesses de l'entreprise, ainsi que les opportunités et les menaces de l'environnement.",
+  },
+  {
+    Name: "Cible",
+    Description: "Le guide complet du communicant MMI",
+    text: "La cible est la personne à qui l'on s'adresse. Elle est définie par des critères sociodémographiques, psychographiques et comportementaux.",
+  },
+  {
+    Name: "Objectif",
+    Description: "Le guide complet du communicant MMI",
+    text: "L'objectif est ce que l'on veut atteindre. Il est défini par un verbe d'action, une cible et un indicateur.",
+  },
+  {
+    Name: "Message",
+    Description: "Le guide complet du communicant MMI",
+    text: "Le message est ce que l'on veut faire passer. Il est défini par un axe de communication et un ton.",
+  },
+  {
+    Name: "Média",
+    Description: "Le guide complet du communicant MMI",
+    text: "Le média est le support de communication. Il est défini par un canal et un format.",
+  },
+  {
+    Name: "Budget",
+    Description: "Le guide complet du communicant MMI",
+    text: "Le budget est la somme d'argent allouée à la campagne de communication.",
+  },
+  {
+    Name: "Planning",
+    Description: "Le guide complet du communicant MMI",
+    text: "Le planning est le calendrier de la campagne de communication.",
+  },
+  {
+    Name: "Bilan",
+    Description: "Le guide complet du communicant MMI",
+    text: "Le bilan est le retour sur la campagne de communication.",
+  },
+];
+
+export const audio = [
+  {
+    Name: "Premiere Pro",
+    Description: "Le guide complet du monteur audio MMI",
+    text: "Premiere Pro est un logiciel de montage vidéo développé par Adobe. Il permet aux utilisateurs de modifier des vidéos selon leur bon vouloir grâce à de nombreuses fonctionnalités.",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/1200px-Adobe_Premiere_Pro_CC_icon.svg.png",
+    img2: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/1200px-Adobe_Premiere_Pro_CC_icon.svg.png",
+    chaps: ["Interface", "Importation", "Montage", "Exportation"],
+    Interface: [
+      "Pour créer un nouveau projet : Fichier > Nouveau > Projet",
+      "Pour importer des médias : Fichier > Importer",
+      "Pour importer des médias : Ctrl + I",
+      "Pour importer des médias : Cmd + I",
+      "Pour importer des médias : Glisser-déposer",
+    ],
+    Importation: [
+      "Pour importer des médias : Fichier > Importer",
+      "Pour importer des médias : Ctrl + I",
+      "Pour importer des médias : Cmd + I",
+      "Pour importer des médias : Glisser-déposer",
+    ],
+    Montage: ["Colorimétrie : Ctrl + M", "Colorimétrie : Cmd + M"],
+    Exportation: [
+      "Exportation : Fichier > Exporter > Exportation média",
+      "Exportation : Ctrl + M",
+      "Exportation : Cmd + M",
+    ],
+  },
+];

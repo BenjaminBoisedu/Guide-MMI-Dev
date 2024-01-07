@@ -2,12 +2,15 @@ import React from "react";
 import "./Css/categorie.css";
 import { Link, useParams } from "react-router-dom";
 import { categories } from "../data/cat";
+import { com } from "../data/cat";
+import { audio } from "../data/cat";
 import "./Css/Chap.css";
 
 export default function Chap() {
   const { Name, chap } = useParams();
   const foundCategory = categories.find((catégorie) => catégorie.Name === Name);
   const foundChap = foundCategory.chaps.find((chapitre) => chapitre === chap);
+
   if (!foundCategory) {
     return <h1>Catégorie non trouvée</h1>;
   }

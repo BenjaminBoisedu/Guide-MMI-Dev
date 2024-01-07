@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { categories } from "../data/cat";
+import { com } from "../data/cat";
+import { audio } from "../data/cat";
 import "./Css/index.css";
 import "./Css/App.css";
 
@@ -21,6 +23,7 @@ export default function Index() {
             </p>
           </div>
           <div className="Catégories">
+            <h2>Developpement Web</h2>
             {categories.map((catégorie, key) => (
               <div className="Catégorie" key={catégorie.Name}>
                 <h2>{catégorie.Name}</h2>

@@ -1,6 +1,8 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import { categories } from "../data/cat";
+import { com } from "../data/cat";
+import { audio } from "../data/cat";
 import "./Css/categorie.css";
 
 export default function Catégorie() {
